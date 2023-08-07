@@ -10,7 +10,7 @@ header, nav, section, footer {
 }
 
 body {
-    background-color: #f2f2f2; /* Light gray background for the entire page */
+    background-color: #f2f2f2;  
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
 }
@@ -19,39 +19,39 @@ header {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 30px 20px; /* Increased padding for the header */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); /* Subtle shadow for depth */
-    margin-bottom: 20px; /* Space below the header */
+    padding: 30px 20px;  
+    border-radius: 8px;  
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);  
+    margin-bottom: 20px;  
 }
 
 nav {
     background-color: #444;
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); /* Subtle shadow for depth */
-    margin-bottom: 20px; /* Space below the navbar */
+    border-radius: 8px;  
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);  
+    margin-bottom: 20px;  
 }
 
 nav ul {
     display: flex;
     list-style-type: none;
-    justify-content: space-around; /* Distribute the space equally among the list items */
+    justify-content: space-around;  
     padding: 10px 0;
     width: 100%;
 }
 
 nav ul li {
-    flex: 1; /* Make each list item take up equal width */
+    flex: 1;  
     text-align: center;
 }
 
 nav ul li a {
     display: block;
-    padding: 10px 15px; /* Adjusted padding for navbar items */
+    padding: 10px 15px;  
     text-align: center;
     text-decoration: none;
     color: #fff;
-    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    transition: background-color 0.3s;  
 }
 
 nav ul li a:hover {
@@ -59,39 +59,39 @@ nav ul li a:hover {
 }
 
 section {
-    background-color: #f9f9f9; /* Light gray background for sections */
-    padding: 30px 20px; /* Increased padding for sections */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); /* Subtle shadow for depth */
-    margin: 20px 0; /* Space above and below sections */
+    background-color: #f9f9f9; 
+    padding: 30px 20px; 
+    border-radius: 8px;  
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); 
+    margin: 20px 0;  
 }
 
 section h2 {
-    text-align: center; /* Centered section headings */
-    color: #333; /* Dark color for section headings */
-    margin-bottom: 30px; /* Space below section headings */
-    font-size: 28px; /* Larger font size for section headings */
+    text-align: center; 
+    color: #333; 
+    margin-bottom: 30px; 
+    font-size: 28px; 
 }
 
 section p {
-    color: #666; /* Dark gray color for the text */
-    font-size: 16px; /* Slightly larger font for readability */
-    line-height: 1.6; /* Spacing between lines for readability */
-    margin-bottom: 20px; /* Space below paragraphs */
+    color: #666; 
+    font-size: 16px; 
+    line-height: 1.6; 
+    margin-bottom: 20px; 
 }
 
 footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 20px 0; /* Adjusted padding for the footer */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); /* Subtle shadow for depth */
+    padding: 20px 0; 
+    border-radius: 8px;  
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); 
 }
 
 footer a {
-    margin: 0 15px; /* Adjusted margin for footer links */
-    font-size: 16px; /* Slightly larger font for footer links */
+    margin: 0 15px;  
+    font-size: 16px;  
 }
 
 footer a:hover {
@@ -114,69 +114,69 @@ footer a:hover {
 /* Emergcy Prepardness Section */
 
 #emergency-preparedness {
-    background-color: #f9f9f9; /* Light gray background for the entire section */
-    padding: 40px 20px; /* Generous padding for spacing */
+    background-color: #f9f9f9;  
+    padding: 40px 20px;  
     border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); /* Subtle shadow for depth */
-    margin: 20px 0; /* Space above and below the section */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);  
+    margin: 20px 0;  
 }
 
 #emergency-preparedness h2 {
-    text-align: center; /* Centered main heading */
-    color: #333; /* Dark color for the main heading */
-    margin-bottom: 30px; /* Space below the main heading */
-    font-size: 28px; /* Larger font size for the main heading */
+    text-align: center;  
+    color: #333;  
+    margin-bottom: 30px;  
+    font-size: 28px;  
 }
 
 #emergency-preparedness p {
-    color: #666; /* Dark gray color for the text */
-    font-size: 16px; /* Slightly larger font for readability */
-    line-height: 1.6; /* Spacing between lines for readability */
-    margin-bottom: 20px; /* Space below paragraphs */
+    color: #666;  
+    font-size: 16px;  
+    line-height: 1.6;  
+    margin-bottom: 20px;  
 }
 
 #emergency-preparedness .checklist,
 #emergency-preparedness .resources,
 #emergency-preparedness .contact {
-    background-color: #fff; /* White background for each subsection */
-    border: 1px solid #e0e0e0; /* Light gray border */
-    border-radius: 5px; /* Rounded corners */
+    background-color: #fff;  
+    border: 1px solid #e0e0e0;  
+    border-radius: 5px;  
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Subtle shadow for depth */
-    margin-bottom: 20px; /* Space between subsections */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);  
+    margin-bottom: 20px;  
 }
 
 #emergency-preparedness h3 {
-    color: #007BFF; /* Blue color for the subsection headings */
-    font-size: 22px; /* Larger font size for subsection headings */
-    margin-bottom: 15px; /* Space below subsection headings */
+    color: #007BFF;  
+    font-size: 22px;  
+    margin-bottom: 15px;  
 }
 
 #emergency-preparedness ul {
-    list-style-type: square; /* Square bullet points */
-    margin-left: 30px; /* Indentation for the list */
+    list-style-type: square;  
+    margin-left: 30px;  
 }
 
 #emergency-preparedness li {
-    margin-bottom: 10px; /* Space between list items */
-    font-size: 16px; /* Font size for list items */
-    line-height: 1.5; /* Spacing between lines for list items */
+    margin-bottom: 10px;  
+    font-size: 16px;  
+    line-height: 1.5;  
 }
 
 #emergency-preparedness .checklist li::before {
-    content: "\2713\0020"; /* Adds a checkmark before each checklist item */
-    color: #007BFF; /* Blue color for the checkmark */
-    font-weight: bold; /* Bold checkmark */
+    content: "\2713\0020";  
+    color: #007BFF;  
+    font-weight: bold;  
 }
 
 #emergency-preparedness a {
-    color: #007BFF; /* Blue color for links */
-    text-decoration: none; /* No underline for links */
-    transition: color 0.3s; /* Smooth transition for link hover effect */
+    color: #007BFF;  
+    text-decoration: none;  
+    transition: color 0.3s;  
 }
 
 #emergency-preparedness a:hover {
-    color: #0056b3; /* Darker blue color on link hover */
+    color: #0056b3;  
 }
 
 
@@ -190,11 +190,11 @@ footer a:hover {
 
     #nav-list {
         display: none;
-        flex-direction: column; /* Make the items stack vertically on small screens */
+        flex-direction: column;  
     }
 
     nav ul li a {
-        padding: 10px 0; /* Adjust padding for vertical layout */
+        padding: 10px 0;  
     }
 }
 
@@ -204,7 +204,7 @@ footer a:hover {
     }
 
     #nav-list {
-        display: flex; /* Ensure the items are displayed horizontally on larger screens */
+        display: flex;  
         flex-direction: row;
     }
 }
