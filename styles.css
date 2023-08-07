@@ -1,0 +1,210 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+
+header, nav, section, footer {
+    padding: 20px;
+}
+
+body {
+    background-color: #f2f2f2; /* Light gray background for the entire page */
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px 20px; /* Increased padding for the header */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); /* Subtle shadow for depth */
+    margin-bottom: 20px; /* Space below the header */
+}
+
+nav {
+    background-color: #444;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); /* Subtle shadow for depth */
+    margin-bottom: 20px; /* Space below the navbar */
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around; /* Distribute the space equally among the list items */
+    padding: 10px 0;
+    width: 100%;
+}
+
+nav ul li {
+    flex: 1; /* Make each list item take up equal width */
+    text-align: center;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 15px; /* Adjusted padding for navbar items */
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+section {
+    background-color: #f9f9f9; /* Light gray background for sections */
+    padding: 30px 20px; /* Increased padding for sections */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); /* Subtle shadow for depth */
+    margin: 20px 0; /* Space above and below sections */
+}
+
+section h2 {
+    text-align: center; /* Centered section headings */
+    color: #333; /* Dark color for section headings */
+    margin-bottom: 30px; /* Space below section headings */
+    font-size: 28px; /* Larger font size for section headings */
+}
+
+section p {
+    color: #666; /* Dark gray color for the text */
+    font-size: 16px; /* Slightly larger font for readability */
+    line-height: 1.6; /* Spacing between lines for readability */
+    margin-bottom: 20px; /* Space below paragraphs */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0; /* Adjusted padding for the footer */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); /* Subtle shadow for depth */
+}
+
+footer a {
+    margin: 0 15px; /* Adjusted margin for footer links */
+    font-size: 16px; /* Slightly larger font for footer links */
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Hamburger Menu Styles */
+.menu-icon .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: #333;
+}
+
+#nav-list {
+    display: none;
+}
+
+/* Emergcy Prepardness Section */
+
+#emergency-preparedness {
+    background-color: #f9f9f9; /* Light gray background for the entire section */
+    padding: 40px 20px; /* Generous padding for spacing */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); /* Subtle shadow for depth */
+    margin: 20px 0; /* Space above and below the section */
+}
+
+#emergency-preparedness h2 {
+    text-align: center; /* Centered main heading */
+    color: #333; /* Dark color for the main heading */
+    margin-bottom: 30px; /* Space below the main heading */
+    font-size: 28px; /* Larger font size for the main heading */
+}
+
+#emergency-preparedness p {
+    color: #666; /* Dark gray color for the text */
+    font-size: 16px; /* Slightly larger font for readability */
+    line-height: 1.6; /* Spacing between lines for readability */
+    margin-bottom: 20px; /* Space below paragraphs */
+}
+
+#emergency-preparedness .checklist,
+#emergency-preparedness .resources,
+#emergency-preparedness .contact {
+    background-color: #fff; /* White background for each subsection */
+    border: 1px solid #e0e0e0; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Subtle shadow for depth */
+    margin-bottom: 20px; /* Space between subsections */
+}
+
+#emergency-preparedness h3 {
+    color: #007BFF; /* Blue color for the subsection headings */
+    font-size: 22px; /* Larger font size for subsection headings */
+    margin-bottom: 15px; /* Space below subsection headings */
+}
+
+#emergency-preparedness ul {
+    list-style-type: square; /* Square bullet points */
+    margin-left: 30px; /* Indentation for the list */
+}
+
+#emergency-preparedness li {
+    margin-bottom: 10px; /* Space between list items */
+    font-size: 16px; /* Font size for list items */
+    line-height: 1.5; /* Spacing between lines for list items */
+}
+
+#emergency-preparedness .checklist li::before {
+    content: "\2713\0020"; /* Adds a checkmark before each checklist item */
+    color: #007BFF; /* Blue color for the checkmark */
+    font-weight: bold; /* Bold checkmark */
+}
+
+#emergency-preparedness a {
+    color: #007BFF; /* Blue color for links */
+    text-decoration: none; /* No underline for links */
+    transition: color 0.3s; /* Smooth transition for link hover effect */
+}
+
+#emergency-preparedness a:hover {
+    color: #0056b3; /* Darker blue color on link hover */
+}
+
+
+
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    #menu-toggle {
+        display: block;
+    }
+
+    #nav-list {
+        display: none;
+        flex-direction: column; /* Make the items stack vertically on small screens */
+    }
+
+    nav ul li a {
+        padding: 10px 0; /* Adjust padding for vertical layout */
+    }
+}
+
+@media screen and (min-width: 769px) {
+    #menu-toggle {
+        display: none;
+    }
+
+    #nav-list {
+        display: flex; /* Ensure the items are displayed horizontally on larger screens */
+        flex-direction: row;
+    }
+}
