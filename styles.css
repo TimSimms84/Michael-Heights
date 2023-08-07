@@ -111,6 +111,53 @@ footer a:hover {
     display: none;
 }
 
+/* home section */
+
+/* ... existing styles ... */
+
+#home {
+    background-color: #f9f9f9; /* Light gray background for the home section */
+    padding: 40px 20px; /* Generous padding for spacing */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); /* Subtle shadow for depth */
+    margin: 20px 0; /* Space above and below the section */
+}
+
+#home h2 {
+    text-align: center; /* Centered main heading */
+    color: #333; /* Dark color for the main heading */
+    margin-bottom: 30px; /* Space below the main heading */
+    font-size: 28px; /* Larger font size for the main heading */
+}
+
+#home p {
+    color: #666; /* Dark gray color for the text */
+    font-size: 16px; /* Slightly larger font for readability */
+    line-height: 1.6; /* Spacing between lines for readability */
+    margin-bottom: 20px; /* Space below paragraphs */
+}
+
+#home .highlights ul {
+    list-style-type: square; /* Square bullet points */
+    margin-left: 30px; /* Indentation for the list */
+}
+
+#home .join-us a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF; /* Blue background for the button */
+    color: #fff; /* White text for the button */
+    text-decoration: none; /* No underline for the button */
+    border-radius: 5px; /* Rounded corners for the button */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+#home .join-us a:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+
 /* Emergcy Prepardness Section */
 
 #emergency-preparedness {
